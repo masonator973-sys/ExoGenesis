@@ -1,0 +1,21 @@
+modLoader="lowcodefml"
+showAsResourcePack = false
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="exogen_core"
+version="1.0.0"
+logoFile = "logo.png"
+logoBlur = false
+displayName="ExoGenesis"
+description='''
+Forged from a lost era of forbidden technology, ExoGenesis grants players access to living exo-armor that evolves with its host. Channel unstable power, awaken hidden abilities, and ascend beyond human limits—at a cost.
+'''
+
+[[dependencies.exogen_core]]
+modId = "palladium"
+mandatory = true
+versionRange = "[4.5.4,)"
+ordering = "NONE"
+side = "BOTH"

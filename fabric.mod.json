@@ -1,0 +1,13 @@
+{
+    "schemaVersion": 1,
+    "authors": [
+        "Death_Uprising97"
+    ],
+    "environment": "*",
+    "id": "exogen_core",
+    "version": "1.0.0",
+    "name": "ExoGenesis",
+    "description": "Forged from a lost era of forbidden technology, ExoGenesis grants players access to living exo-armor that evolves with its host. Channel unstable power, awaken hidden abilities, and ascend beyond human limits—at a cost.",
+    "icon": "logo.png",
+    "license": "All rights reserved"
+}

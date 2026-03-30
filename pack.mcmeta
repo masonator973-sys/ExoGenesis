@@ -1,0 +1,13 @@
+{
+    "pack": {
+        "id": "exogen_core",
+        "pack_format": 15,
+        "description": "Forged from a lost era of forbidden technology, ExoGenesis grants players access to living exo-armor that evolves with its host. Channel unstable power, awaken hidden abilities, and ascend beyond human limits—at a cost.",
+        "version": "1.0.0"
+    },
+    "dependencies": {
+        "common": {},
+        "fabric": {},
+        "forge": {}
+    }
+}
