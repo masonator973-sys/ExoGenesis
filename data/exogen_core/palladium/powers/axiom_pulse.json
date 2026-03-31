@@ -1,19 +1,42 @@
 {
     "name": "Axiom Pulse",
     "persistent_data": true,
-    "background": "minecraft:textures/block/white_wool.png",
+    "background": "minecraft:textures/block/black_wool.png",
     "icon": "minecraft:lightning_rod",
     "gui_display_type": "tree",
     "abilities": {
         "test_dummy":{
             "type": "palladium:dummy",
             "icon": "minecraft:blaze_rod",
-            "title": "test",
+            "title": "Test",
             "bar_color": "red",
             "hidden": false,
             "hidden_in_bar": false,
             "list_index": 0,
-            "gui_position": "null",
+            "gui_position": [0, 0],
+            "description": "This is a test of the abilities!",
+            "conditions": {
+                "enabling": [
+                                        {
+                                            "type": "palladium:action",
+                                            "cooldown": 0,
+                                            "key_type": "key_bind",
+                                            "needs_empty_hand": false,
+                                            "allow_scrolling_when_crouching": true
+                                        }
+                ],
+                "unlocking": []
+            }
+        },
+        "test_dummy_2":{
+            "type": "palladium:dummy",
+            "icon": "minecraft:spruce_door",
+            "title": "Test 2",
+            "bar_color": "red",
+            "hidden": false,
+            "hidden_in_bar": false,
+            "list_index": 1,
+            "gui_position": [0, 1],
             "description": "This is a test of the abilities!",
             "conditions": {
                 "enabling": [
